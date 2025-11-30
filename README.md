@@ -65,38 +65,6 @@ D — Dependency Inversion Principle
 
 Each principle is explained with Swift examples demonstrating bad vs good implementations.
 
-📁 Project Structure
-📦 Swift-Design-Patterns-and-SOLID
- ┣ 📂 Creational
- ┃ ┣ 📜 Singleton.swift
- ┃ ┣ 📜 Factory.swift
- ┃ ┣ 📜 AbstractFactory.swift
- ┃ ┣ 📜 Builder.swift
- ┃ ┣ 📜 Prototype.swift
- ┃ ┗ 📜 ObjectPool.swift
- ┣ 📂 Structural
- ┃ ┣ 📜 Adapter.swift
- ┃ ┣ 📜 Bridge.swift
- ┃ ┣ 📜 Composite.swift
- ┃ ┣ 📜 Decorator.swift
- ┃ ┣ 📜 Facade.swift
- ┃ ┣ 📜 Flyweight.swift
- ┃ ┗ 📜 Proxy.swift
- ┣ 📂 Behavioral
- ┃ ┣ 📜 Observer.swift
- ┃ ┣ 📜 Strategy.swift
- ┃ ┣ 📜 Command.swift
- ┃ ┣ 📜 ChainOfResponsibility.swift
- ┃ ┣ 📜 State.swift
- ┃ ┗ 📜 Iterator.swift
- ┣ 📂 SOLID
- ┃ ┣ 📜 SRP.swift
- ┃ ┣ 📜 OCP.swift
- ┃ ┣ 📜 LSP.swift
- ┃ ┣ 📜 ISP.swift
- ┃ ┗ 📜 DIP.swift
- ┗ 📜 README.md
-
 🎯 Goal of This Repository
 
 This repo helps Swift developers:
