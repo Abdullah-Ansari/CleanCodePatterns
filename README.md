@@ -6,52 +6,37 @@ A comprehensive collection of Design Patterns and SOLID Principles implemented i
 
 This repository serves as a practical reference for mastering Swift architecture and clean code practices—ideal for learning, interviews, and real-world development.
 
-📚 Contents
-🚧 Creational Design Patterns
+📚 **Contents** <br>
 
-Singleton Pattern
+🚧 **Creational Design Patterns** <br>
 
-Factory Pattern
+🔸 Singleton Pattern <br>
+🔸 Factory Pattern <br>
+🔸 Abstract Factory Pattern <br>
+🔸 Builder Pattern <br>
+🔸 Prototype Pattern <br>
+🔸 Object Pool Pattern <br>
 
-Abstract Factory Pattern
+🏗 **Structural Design Patterns** <br>
 
-Builder Pattern
+🔹 Adapter Pattern <br>
+🔹 Bridge Pattern <br>
+🔹 Composite Pattern <br>
+🔹 Decorator Pattern <br>
+🔹 Facade Pattern <br>
+🔹 Flyweight Pattern <br>
+🔹 Proxy Pattern <br>
 
-Prototype Pattern
+🧠 Behavioral Design Patterns <br>
 
-Object Pool Pattern
+◆ Observer Pattern <br>
+◆ Strategy Pattern <br>
+◆ Command Pattern <br>
+◆ Chain of Responsibility Pattern <br>
+◆ State Pattern <br>
+◆ Iterator Pattern <br>
 
-🏗 Structural Design Patterns
-
-Adapter Pattern
-
-Bridge Pattern
-
-Composite Pattern
-
-Decorator Pattern
-
-Facade Pattern
-
-Flyweight Pattern
-
-Proxy Pattern
-
-🧠 Behavioral Design Patterns
-
-Observer Pattern
-
-Strategy Pattern
-
-Command Pattern
-
-Chain of Responsibility Pattern
-
-State Pattern
-
-Iterator Pattern
-
-🧩 SOLID Principles (in Swift)
+🧩 **SOLID Principles (in Swift)**
 
 S — Single Responsibility Principle
 
