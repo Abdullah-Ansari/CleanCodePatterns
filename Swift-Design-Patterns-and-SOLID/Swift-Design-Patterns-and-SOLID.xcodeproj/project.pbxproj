@@ -11,6 +11,7 @@
 		508A59852EDDC10100C0D3C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A59842EDDC10100C0D3C7 /* ContentView.swift */; };
 		508A59872EDDC10200C0D3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508A59862EDDC10200C0D3C7 /* Assets.xcassets */; };
 		508A598A2EDDC10200C0D3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508A59892EDDC10200C0D3C7 /* Preview Assets.xcassets */; };
+		508A59942EDDC15100C0D3C7 /* MySingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A59932EDDC15100C0D3C7 /* MySingleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		508A59842EDDC10100C0D3C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		508A59862EDDC10200C0D3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		508A59892EDDC10200C0D3C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		508A59932EDDC15100C0D3C7 /* MySingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		508A59812EDDC10100C0D3C7 /* Swift-Design-Patterns-and-SOLID */ = {
 			isa = PBXGroup;
 			children = (
+				508A59902EDDC12F00C0D3C7 /* DesignPatterns */,
 				508A59822EDDC10100C0D3C7 /* Swift_Design_Patterns_and_SOLIDApp.swift */,
 				508A59842EDDC10100C0D3C7 /* ContentView.swift */,
 				508A59862EDDC10200C0D3C7 /* Assets.xcassets */,
@@ -65,6 +68,30 @@
 				508A59892EDDC10200C0D3C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		508A59902EDDC12F00C0D3C7 /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				508A59912EDDC13B00C0D3C7 /* Creational */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		508A59912EDDC13B00C0D3C7 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				508A59922EDDC14400C0D3C7 /* Singleton */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		508A59922EDDC14400C0D3C7 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				508A59932EDDC15100C0D3C7 /* MySingleton.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				508A59852EDDC10100C0D3C7 /* ContentView.swift in Sources */,
+				508A59942EDDC15100C0D3C7 /* MySingleton.swift in Sources */,
 				508A59832EDDC10100C0D3C7 /* Swift_Design_Patterns_and_SOLIDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
