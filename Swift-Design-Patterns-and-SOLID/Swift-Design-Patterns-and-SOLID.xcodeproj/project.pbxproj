@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5039E45C2EDECBD6002E032A /* DownloadManagerWithSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039E45B2EDECBD6002E032A /* DownloadManagerWithSemaphore.swift */; };
 		508A59832EDDC10100C0D3C7 /* Swift_Design_Patterns_and_SOLIDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A59822EDDC10100C0D3C7 /* Swift_Design_Patterns_and_SOLIDApp.swift */; };
 		508A59852EDDC10100C0D3C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A59842EDDC10100C0D3C7 /* ContentView.swift */; };
 		508A59872EDDC10200C0D3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508A59862EDDC10200C0D3C7 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5039E45B2EDECBD6002E032A /* DownloadManagerWithSemaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerWithSemaphore.swift; sourceTree = "<group>"; };
 		508A597F2EDDC10100C0D3C7 /* Swift-Design-Patterns-and-SOLID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Design-Patterns-and-SOLID.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		508A59822EDDC10100C0D3C7 /* Swift_Design_Patterns_and_SOLIDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Design_Patterns_and_SOLIDApp.swift; sourceTree = "<group>"; };
 		508A59842EDDC10100C0D3C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				508A59992EDEC6A700C0D3C7 /* DownloadManagerWithActor.swift */,
 				508A599B2EDEC8F400C0D3C7 /* DownloadManagerWithLock.swift */,
 				508A599D2EDECA1D00C0D3C7 /* DownloadManagerWithBarrier.swift */,
+				5039E45B2EDECBD6002E032A /* DownloadManagerWithSemaphore.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				508A599E2EDECA1D00C0D3C7 /* DownloadManagerWithBarrier.swift in Sources */,
 				508A59982EDDD73B00C0D3C7 /* DownloadManagerWtihSerialQueue.swift in Sources */,
 				508A59942EDDC15100C0D3C7 /* MySingleton.swift in Sources */,
+				5039E45C2EDECBD6002E032A /* DownloadManagerWithSemaphore.swift in Sources */,
 				508A59832EDDC10100C0D3C7 /* Swift_Design_Patterns_and_SOLIDApp.swift in Sources */,
 				508A59962EDDC2F800C0D3C7 /* DownloadManager.swift in Sources */,
 				508A599A2EDEC6A700C0D3C7 /* DownloadManagerWithActor.swift in Sources */,
