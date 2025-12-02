@@ -16,6 +16,7 @@
 		508A59982EDDD73B00C0D3C7 /* DownloadManagerWtihSerialQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A59972EDDD73B00C0D3C7 /* DownloadManagerWtihSerialQueue.swift */; };
 		508A599A2EDEC6A700C0D3C7 /* DownloadManagerWithActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A59992EDEC6A700C0D3C7 /* DownloadManagerWithActor.swift */; };
 		508A599C2EDEC8F400C0D3C7 /* DownloadManagerWithLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A599B2EDEC8F400C0D3C7 /* DownloadManagerWithLock.swift */; };
+		508A599E2EDECA1D00C0D3C7 /* DownloadManagerWithBarrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508A599D2EDECA1D00C0D3C7 /* DownloadManagerWithBarrier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		508A59972EDDD73B00C0D3C7 /* DownloadManagerWtihSerialQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerWtihSerialQueue.swift; sourceTree = "<group>"; };
 		508A59992EDEC6A700C0D3C7 /* DownloadManagerWithActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerWithActor.swift; sourceTree = "<group>"; };
 		508A599B2EDEC8F400C0D3C7 /* DownloadManagerWithLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerWithLock.swift; sourceTree = "<group>"; };
+		508A599D2EDECA1D00C0D3C7 /* DownloadManagerWithBarrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerWithBarrier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				508A59972EDDD73B00C0D3C7 /* DownloadManagerWtihSerialQueue.swift */,
 				508A59992EDEC6A700C0D3C7 /* DownloadManagerWithActor.swift */,
 				508A599B2EDEC8F400C0D3C7 /* DownloadManagerWithLock.swift */,
+				508A599D2EDECA1D00C0D3C7 /* DownloadManagerWithBarrier.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				508A599C2EDEC8F400C0D3C7 /* DownloadManagerWithLock.swift in Sources */,
 				508A59852EDDC10100C0D3C7 /* ContentView.swift in Sources */,
+				508A599E2EDECA1D00C0D3C7 /* DownloadManagerWithBarrier.swift in Sources */,
 				508A59982EDDD73B00C0D3C7 /* DownloadManagerWtihSerialQueue.swift in Sources */,
 				508A59942EDDC15100C0D3C7 /* MySingleton.swift in Sources */,
 				508A59832EDDC10100C0D3C7 /* Swift_Design_Patterns_and_SOLIDApp.swift in Sources */,
